@@ -19,10 +19,10 @@ public class PassValueVariable {
         System.out.println(ivan.getName() + "\t\treference = " + ivan);
 
         Person kolya = new Person("Nikolay");
-        System.out.println(kolya.getName() + "\t\treference = " + kolya);
+        System.out.println(kolya.getName() + "\t\treference = " + kolya + "\n");
 
         kolya = ivan;
-        System.out.println("\nivan.getName()\t" + ivan.getName() + "\t\treference = " + ivan);
+        System.out.println("ivan.getName()\t" + ivan.getName() + "\t\treference = " + ivan);
         System.out.println("kolya.getName()\t" + kolya.getName() + "\t\treference = " + kolya);
     }
 }
