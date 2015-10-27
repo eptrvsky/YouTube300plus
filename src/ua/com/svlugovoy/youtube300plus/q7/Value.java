@@ -25,6 +25,6 @@ public class Value {
         System.out.println(value.a + "\t" + value.b + "\t" + value.c + "\t" + value.d
                 + "\t" + value.e + "\t\t" + value.f + "\t\t" + (int) value.g + "\t" + value.h);
         System.out.println(object);
-        System.out.println((int)'\u0000');
+        System.out.println((int) '\u0000');
     }
 }
