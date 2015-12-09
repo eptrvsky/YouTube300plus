@@ -1,4 +1,4 @@
-package ua.com.svlugovoy.youtube300plus.q128;
+package com.svlugovoy.youtube300plus.q128;
 
 import java.util.*;
 

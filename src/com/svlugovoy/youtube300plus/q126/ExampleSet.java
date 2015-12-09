@@ -1,4 +1,4 @@
-package ua.com.svlugovoy.youtube300plus.q126;
+package com.svlugovoy.youtube300plus.q126;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

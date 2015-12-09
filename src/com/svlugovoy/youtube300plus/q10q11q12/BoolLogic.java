@@ -1,4 +1,4 @@
-package ua.com.svlugovoy.youtube300plus.q10q11q12;
+package com.svlugovoy.youtube300plus.q10q11q12;
 
 /**
  * Created by Sergey on 27.10.2015.

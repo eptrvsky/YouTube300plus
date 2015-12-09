@@ -1,4 +1,4 @@
-package ua.com.svlugovoy.youtube300plus.q10q11q12;
+package com.svlugovoy.youtube300plus.q10q11q12;
 
 public class Ternary {
     public static void main(String args[]) {
