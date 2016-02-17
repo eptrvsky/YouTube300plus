@@ -35,9 +35,9 @@ public class Loops {
         System.out.println("Среднее значение = " + d);
 
         //infinity loop
-//        for (;;){
-//            System.out.println("Java - forever");
-//        }
+        for (;;){
+            System.out.println("Java - forever");
+        }
 
     }
 }
