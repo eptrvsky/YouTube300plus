@@ -21,6 +21,8 @@ class OuterN {
 
         void display() {
 //            System.out.println("Это метод display() в class Nested, переменная outer_var = " + outer_var);
+            OuterN outerN = new OuterN();
+            System.out.println(outerN.outer_var);
             System.out.println("Это метод display() в class Nested, переменная outer_stat_var = " + outer_stat_var);
         }
 
