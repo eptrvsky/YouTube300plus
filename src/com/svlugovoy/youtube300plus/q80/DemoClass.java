@@ -8,7 +8,6 @@ public class DemoClass {
 
         TestClass test = new TestClass();
         System.out.println(test.i_publ);
-//        System.out.println(test.i_priv);
-//        System.out.println(test.str_priv);
+//        System.out.println(test.i_priv);`
     }
 }
