@@ -12,7 +12,7 @@ public class ReadDemo {
     public static void main(String[] args) {
 
         String fPath = "E:\\test\\in.txt";
-        int i, count = 0;
+        int i;
 
         File f = new File(fPath);
         FileReader fr = null;
@@ -21,7 +21,6 @@ public class ReadDemo {
             fr = new FileReader(f);
             while ((i = fr.read()) != -1) {
                 System.out.print((char) i);
-                count++;
 //                Thread.sleep(500);
             }
 
