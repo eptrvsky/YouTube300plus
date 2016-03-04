@@ -1,9 +1,6 @@
 package com.svlugovoy.youtube300plus.q_92;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Sergey Lugovoy <svlugovoy@gmail.com> 03.03.2016.
