@@ -1,4 +1,4 @@
-package com.svlugovoy.youtube300plus.q_92;
+package com.svlugovoy.youtube300plus.q92;
 
 /**
  * @author Sergey Lugovoy <svlugovoy@gmail.com> 03.03.2016.

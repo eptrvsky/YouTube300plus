@@ -1,4 +1,4 @@
-package com.svlugovoy.youtube300plus.q_92;
+package com.svlugovoy.youtube300plus.q92;
 
 import java.util.ArrayList;
 
