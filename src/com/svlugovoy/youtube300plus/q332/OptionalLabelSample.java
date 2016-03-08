@@ -20,14 +20,13 @@ public class OptionalLabelSample {
         int posX = -1;
         int posY = -1;
 
-        PAR_LOOP:
-        for (int i = 0; i < list.length; i++) {
+        PARENT_LOOP: for (int i = 0; i < list.length; i++) {
             for (int j = 0; j < list[i].length; j++) {
 
                 if (list[i][j] == search) {
                     posX = i;
                     posY = j;
-                    break PAR_LOOP;
+                    break PARENT_LOOP;
                 }
             }
         }
