@@ -34,6 +34,8 @@ public class SimpleDemo {
         Dog boxer = Dog.valueOf("Boxer");
         System.out.println(boxer);
 
+        System.out.println(Dog.class.getSuperclass());
+
     }
 
 }
