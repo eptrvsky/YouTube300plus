@@ -40,7 +40,7 @@ public class Restrictions {
         Gen<Integer> gint = new Gen<>(55);
         Gen<LocalDate> gdate = new Gen<>(LocalDate.now());
 
-//        gi = gd; // 2. Разные аргументы типа
+//        gint = gdate; // 2. Разные аргументы типа
 
         List<String> ls = new ArrayList<>(); // 3. <> Java7 +
 
