@@ -3,7 +3,7 @@ package com.svlugovoy.youtube300plus.q181_q_q184;
 /**
  * @author Sergey Lugovoy <svlugovoy@gmail.com> 17.03.2016.
  */
-public class SBFDemo {
+public class SbfSbdDemo {
     public static void main(String[] args) {
 
         StringBuffer sbf = new StringBuffer();
@@ -28,6 +28,13 @@ public class SBFDemo {
         System.out.println(sbf.equals(sbf1));
         System.out.println(sbf.hashCode() == sbf1.hashCode());
         System.out.println(sbf.toString().contentEquals(sbf1));
+        System.out.println("-------------------");
+
+        StringBuilder a = new StringBuilder("abc");
+        StringBuilder b = a.append("de");
+        b = b.append("f").append("g");
+        System.out.println("a=" + a);
+        System.out.println("b=" + b);
 
     }
 }
