@@ -17,11 +17,11 @@ public class SortDemo {
 //        bubbleSort2(arrayDemo);
 //        System.out.println("bubbleSort2:\n" + Arrays.toString(arrayDemo));
 
-//        selectSort(arrayDemo);
-//        System.out.println("selectSort:\n" + Arrays.toString(arrayDemo));
+//        selectionSort(arrayDemo);
+//        System.out.println("selectionSort:\n" + Arrays.toString(arrayDemo));
 
-        selectSort2(arrayDemo);
-        System.out.println("selectSort2:\n" + Arrays.toString(arrayDemo));
+        selectionSort2(arrayDemo);
+        System.out.println("selectionSort2:\n" + Arrays.toString(arrayDemo));
     }
 
     //bubbleSort
@@ -50,7 +50,7 @@ public class SortDemo {
     }
 
     //selectionSort
-    static void selectSort(int[] array) {
+    static void selectionSort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] > array[j]) {
@@ -62,7 +62,7 @@ public class SortDemo {
         }
     }
 
-    static void selectSort2(int[] array) {
+    static void selectionSort2(int[] array) {
         int out, in, min;
         for (out = 0; out < array.length - 1; out++) {
             min = out;
