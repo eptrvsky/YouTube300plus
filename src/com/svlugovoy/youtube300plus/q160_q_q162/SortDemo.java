@@ -20,8 +20,12 @@ public class SortDemo {
 //        selectionSort(arrayDemo);
 //        System.out.println("selectionSort:\n" + Arrays.toString(arrayDemo));
 
-        selectionSort2(arrayDemo);
-        System.out.println("selectionSort2:\n" + Arrays.toString(arrayDemo));
+//        selectionSort2(arrayDemo);
+//        System.out.println("selectionSort2:\n" + Arrays.toString(arrayDemo));
+
+        insertionSort(arrayDemo);
+        System.out.println("insertionSort:\n" + Arrays.toString(arrayDemo));
+
     }
 
     //bubbleSort
@@ -77,7 +81,17 @@ public class SortDemo {
     }
 
     //insertionSort
-
+    static void insertionSort(int[] array) {
+        for (int out = 1; out < array.length; out++) {
+            int tmp = array[out];
+            int in = out;
+            while (in > 0 && array[in - 1] >= tmp){
+                array[in] = array[in - 1];
+                --in;
+            }
+            array[in] = tmp;
+        }
+    }
 
 
 }
