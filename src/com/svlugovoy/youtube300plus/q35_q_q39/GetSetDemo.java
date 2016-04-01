@@ -13,6 +13,7 @@ public class GetSetDemo {
         this.name = name;
     }
 
+
     public String getName() {
         return name;
     }
@@ -20,6 +21,7 @@ public class GetSetDemo {
     public void setName(String name) {
         this.name = name;
     }
+
 
     private void privPrint(){
         System.out.println("privPrint...");

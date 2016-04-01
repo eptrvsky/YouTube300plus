@@ -7,20 +7,15 @@ import java.util.List;
  */
 public class OverloadDemo1 {
 
-    public void doSmth() {
-    }
+    public void doSmth() {}
 
-    void doSmth(int i) {
-    }
+    void doSmth(int i) {}
 
-    public void doSmth(String s) {
-    }
+    public void doSmth(String s) {}
 
-    public void doSmth(String s, int i) {
-    }
+    public void doSmth(String s, int i) {}
 
-    public void doSmth(String s, int i, double d) throws Exception {
-    }
+    public void doSmth(String s, int i, double d) throws Exception {}
 
     protected Object doSmth(Object o) {
         return null;
